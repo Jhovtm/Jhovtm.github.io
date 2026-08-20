@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<head>
+    <meta charset="UTF-8"> <!--uma configuração que diz ao navegador qual padrão de caracteres o HTML está usando-->
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="menu">
+    <a href="#sobre">Sobre</a>
+    <a href="#formacao">Formação</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contato">Contato</a>
+    </nav>
+
+    <h1 id="titulo" class="titulofonte fade-in"> JHOVANA THOMAZ</h1>
+
+    <header>
+        <img src="./imgsHTML/fotoFormatura.png" alt="Imagem de Formatura" class="fade-in">
+    </header>
+
+    <section id="formacao">
+        <h2 class="fade-in">Formação
+
+        </h2>
+   </section>
+
+
+    <script>
+        const elementos = document.querySelectorAll('.fade-in');
+
+        const observador = new IntersectionObserver((entradas) => {
+            entradas.forEach(entrada => {
+                if (entrada.isIntersecting) {
+                    entrada.target.classList.add('visivel');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        elementos.forEach(el => observador.observe(el));
+    </script>
+
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    background-color: #F5F0E9;
+    padding: 60px 40px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 1px;
+}
+
+#titulo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #3A342C;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.titulofonte {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #112250;
+    font-size: 24px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visivel {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.delay-1 { transition-delay: 0.2s; }
+.delay-2 { transition-delay: 0.4s; }
+.delay-3 { transition-delay: 0.6s; }
+.delay-4 { transition-delay: 0.8s; }

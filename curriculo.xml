@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculo>
+<dados_pessoais>
+ <nome>Jhovana Thomaz Martins</nome>
+ <data_nascimento>20/09/2005</data_nascimento>
+ <idade>20 anos</idade>
+ <email>jhovanathomaz77@gmail.com</email>
+ <numero_celular>(21)9 99736-9945</numero_celular>
+
+ </dados_pessoais>
+ <formacao>
+ <faculdade>CEFET-RJ</faculdade>
+ <curso>Sistemas de Informação</curso>
+ <periodo>3º periodo</periodo>
+ </formacao>
+ 
+ <idioma>
+<nome_idioma>Inglês</nome_idioma>
+<nivel>Avançado</nivel>
+ </idioma>
+
+ <idioma>
+<nome_idioma>Português</nome_idioma>
+<nivel>Nativo</nivel>
+ </idioma>
+
+<idioma>
+<nome_idioma>Italiano</nome_idioma>
+<nivel>Intermediário</nivel>
+ </idioma>
+
+<cursos_extras>
+<curso>
+<nome>Javascript, Typescript e Formatação HTML.</nome>
+<instituicao>Udemy</instituicao>
+</curso>
+
+<curso>
+<nome>Introdução Java.</nome>
+<instituicao>AlgaWorks</instituicao>
+</curso>
+
+<curso>
+<nome>Ignicao Spring REST.</nome>
+<instituicao>AlgaWorks</instituicao>
+</curso>
+
+<curso>
+<nome>Banco de dados e SQL para iniciantes</nome>
+<instituicao></instituicao>
+</curso>
+
+</cursos_extras>
+
+
+</curriculo>
