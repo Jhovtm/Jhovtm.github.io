@@ -11,6 +11,45 @@ body {
     text-align: center;
 }
 
+.menu-cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card-menu {
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-menu::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4);
+    transition: background 0.3s ease;
+}
+
+.card-menu:hover::before {
+    background: rgba(0,0,0,0.6);
+}
+
+.card-menu span {
+    position: relative;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+    z-index: 1;
+}
+
 header {
     width: 100%;
     padding: 0;
