@@ -1,61 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-br"> 
-
+<html lang ="pt-br">
 <head>
-    <meta charset="UTF-8"> <!--uma configuração que diz ao navegador qual padrão de caracteres o HTML está usando-->
-    <title>Meu Currículo</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset ="UTF-8">
+    <link rel ="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Jost:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./favicon.ico">
+        <title>Jhovana Thomaz</title>
 </head>
 
 <body>
-    <nav class="menu">
-    <a href="#sobre">Sobre</a>
-    <a href="#formacao">Formação</a>
-    <a href="#experiencia">Experiência</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#contato">Contato</a>
-    </nav>
-    <nav class="menu-cards">
-    <a href="#formacao" class="card-menu" style="background-image: url('./imgs/formacao-bg.jpg');">
-        <span>Formação</span>
+      <script type="module" src="./dist/main.js"></script>
+    <header id="inicio">        
+        <nav>
+
+             <h1>Jhovana Thomaz</h1>
+            <ul>
+                <li><a href="#sobre"> Sobre mim</a></li>
+                <li><a href ="#projetos">Projetos Pessoais</a></li>
+                <li><a href ="#habilidades">Habilidades</a></li>
+                <li><a href ="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <section id="sobre">
+                    <img src="./imgsHTML/moldura.png" alt = "Foto de Formatura" class="moldura-container">
+     
+            <ul>
+                <li><h2>Sobre mim</h2></li>
+                <li><p>Oi, eu sou a Jho! Estudo Sistemas de Informação no CEFET-RJ (UNED Nova Friburgo), com previsão de conclusão em 2029, e tenho interesse em desenvolvimento web full stack.
+                     Minha base prática inclui lógica de programação, bancos de dados e versionamento de código. Como voluntária no InovaFri Lab, participei de um projeto real de desenvolvimento web com TypeScript, 
+                     tendo contato com arquitetura de software e controle de versão na prática.</p></li>
+                <li><p>Gosto de aprender fazendo. Já desenvolvi projetos em C e Java e atualmente estou aprofundando meus conhecimentos em TypeScript e MySQL. 
+                    Meu próximo objetivo é explorar frameworks do ecossistema Node.js. Também venho me dedicando a cursos de JavaScript, TypeScript, HTML e bancos de dados. Além da funcionalidade, valorizo o aspecto visual das aplicações, como neste portfólio, 
+                    desenvolvido do zero com TypeScript, HTML e CSS.</p></li>
+                <li><p>Sou falante nativa de português, tenho inglês avançado e estou iniciando no italiano. Busco minha primeira oportunidade de estágio em TI para aplicar meus conhecimentos,
+                     continuar aprendendo em equipe e contribuir para o desenvolvimento de projetos reais.</p></li>
+
+
+            </ul>
+
+        </section>
+</header>
+<hr>
+<main>
+     <section id="projetos" class="projetos">
+        <h2>Projetos pessoais</h2>
+        <a href="https://github.com/Jhovtm" target="_blank" class="git">GitHub</a>
+        <ul>
+            <li>
+                <a href="https://jhovtm.github.io/Site-de-imagens-Gen-rico/" target="_blank">Site de imagens genérico</a>
+                <h3>HTML, CSS, Bootstrap</h3>
+                <p>Desenvolvimento do front-end de um site de banco de imagens, a partir de wireframe. Implementação de layout responsivo com grid de galeria, barra de pesquisa, 
+                    seção de destaques, depoimentos de usuários e tabela de planos de assinatura.</p>
+            </li>
+
+            <li>
+                <a href="https://jhovtm.github.io/LAB-NUMBERS---Interativo/" target="_blank">Site interativo em JavaScript</a>
+                <h3>HTML, CSS, JavaScript</h3>
+                <p>Desenvolvimento de uma aplicação web interativa para explorar números, com interface dinâmica e recursos para 
+            realizar operações e visualizar resultados em tempo real. Projeto desenvolvido com foco na lógica de programação, manipulação de dados e interação com o usuário.</p>
+            </li>
+
+        </ul>
+
+     </section>
+
+     <section id="habilidades" class="habilidades">
+    <h2>Habilidades</h2>
+
+    <div class="habilidades-conteudo">
+
+        <div class="categoria">
+            <h3>Linguagens de programação</h3>
+            <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+        <div class="categoria">
+            <h3>Tecnologias e ferramentas</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<section class="contato" id="contato">
+
+    <h2>Vamos conversar?</h2>
+
+    <p>
+        Estou em busca da minha primeira oportunidade de estágio
+        em TI e aberta a conexões, projetos e novas oportunidades.
+    </p>
+
+    <div class="contato-links">
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jhovanathomaz77@gmail.com" target="_blank">E-mail</a>
+
+        <a href="https://github.com/Jhovtm"
+           target="_blank"
+           rel="noopener noreferrer">
+            GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/jhovana-thomaz-5b8135380"
+           target="_blank"
+           rel="noopener noreferrer">
+            LinkedIn
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<footer class="rodape">
+    <p>
+        Desenvolvido por <span>Jho</span> 💻
+    </p>
+
+    <p class="rodape-copy">
+        © 2026 Jhovana Thomaz. Todos os direitos reservados.
+    </p>
+
+    <a href="#inicio" class="voltar-topo">
+        Voltar ao topo ↑
     </a>
-    <a href="#experiencia" class="card-menu" style="background-image: url('./imgs/experiencia-bg.jpg');">
-        <span>Experiência</span>
-    </a>
-</nav>
-
-    <h1 id="titulo" class="titulofonte fade-in"> JHOVANA THOMAZ</h1>
-
-    <header>
-        <img src="./imgsHTML/fotoFormatura.png" alt="Imagem de Formatura" class="fade-in">
-    </header>
-
-    <section id="formacao">
-        <h2 class="fade-in">Formação
-
-        </h2>
-   </section>
+</footer>
 
 
-    <script>
-        const elementos = document.querySelectorAll('.fade-in');
 
-        const observador = new IntersectionObserver((entradas) => {
-            entradas.forEach(entrada => {
-                if (entrada.isIntersecting) {
-                    entrada.target.classList.add('visivel');
-                }
-            });
-        }, { threshold: 0.2 });
 
-        elementos.forEach(el => observador.observe(el));
-    </script>
+
+
 
 </body>
-</html>
 
+
+</html>
