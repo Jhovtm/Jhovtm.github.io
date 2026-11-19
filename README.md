@@ -13,11 +13,12 @@ O site é estático e não precisa de frameworks, instalação de dependências,
 ## Estrutura de arquivos
 
 ```text
-jho-portfolio/
+.
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── README.md
+├── jho-portfolio.zip
 └── assets/
     ├── childhood-computer.png
     ├── flower-decor.png
@@ -61,7 +62,7 @@ Para acompanhar alterações enquanto edita, abra a pasta no Visual Studio Code 
 
 ## Publicação no GitHub Pages
 
-O site pode ser publicado como um site estático. Envie `index.html`, `styles.css`, `script.js` e a pasta `assets/` para o repositório e configure o GitHub Pages para publicar a pasta que contém o `index.html`. Se o portfólio ficar dentro de uma subpasta, o endereço do site também terá essa subpasta no caminho.
+Este repositório (`Jhovtm.github.io`) mantém `index.html`, `styles.css`, `script.js` e a pasta `assets/` na raiz. Configure o GitHub Pages para publicar a branch `main` a partir da raiz do repositório. Após um push, o site será atualizado quando a publicação do Pages terminar.
 
 ## Acessibilidade e adaptação
 
