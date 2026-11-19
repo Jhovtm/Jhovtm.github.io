@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfólio de Jhovana Thomaz, estudante de Sistemas de Informação e entusiasta de desenvolvimento web."
+    />
+    <meta name="theme-color" content="#0b1423" />
+    <title>Jhovana Thomaz | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="Jhovana Thomaz, início">   
+          <span>Portfólio</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Navegação principal">
+          <a href="#sobre">sobre mim</a>
+          <a href="#habilidades">habilidades</a>
+          <a href="#projetos">projetos</a>
+          <a href="#contato">contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-inner page-width">
+          <div class="hero-title-wrap">
+            <p class="hero-kicker">Estudante de Sistemas de Informação</p>
+            <h1 id="hero-title"><span>Jhovana</span><span>Thomaz</span></h1>
+            <p class="hero-focus">Desenvolvimento web <i>·</i> Full Stack</p>
+          </div>
+
+          <div class="hero-intro">
+            <img
+              class="hero-portrait"
+              src="./assets/graduation-portrait.png"
+              alt="Jhovana em sua formatura"
+              width="590"
+              height="884"
+            />
+            <p>
+              Oi, sou a Jho! Estudo Sistemas de Informação na Universidade Federal de
+              Ciência e Inovação e me interesso por desenvolvimento web Full Stack.
+              Busco minha primeira oportunidade de estágio em TI.
+            </p>
+            <a class="text-link" href="#sobre">Conheça minha história <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#sobre" aria-label="Rolar para a seção Sobre mim">
+          <span></span>
+        </a>
+      </section>
+
+      <section class="about section-shell" id="sobre" aria-labelledby="about-title">
+        <img class="floral floral-about" src="./assets/flower-decor.png" alt="" aria-hidden="true" />
+        <div class="page-width">
+          <div class="section-heading about-heading">
+            <p class="eyebrow">um pouco sobre mim</p>
+            <h2 id="about-title">Quem é <span>Jhovana?</span></h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy about-copy-left">
+              <p>
+                Sou apaixonada por tecnologia e movida pela curiosidade de entender como
+                as coisas funcionam — e como podem funcionar melhor. Estudo Sistemas de
+                Informação na Universidade Federal de Ciência e Inovação, com previsão
+                de conclusão em dezembro de 2029.
+              </p>
+              <p>
+                Como voluntária no InovaFri Lab, vivi na prática o desenvolvimento de um
+                site institucional em equipe. Essa experiência me aproximou de processos
+                ágeis, arquitetura de software e documentação técnica.
+              </p>
+            </div>
+
+            <figure class="about-photo-frame">
+              <img
+                src="./assets/stage-photo.png"
+                alt="Jhovana compartilhando ideias em um evento"
+                width="642"
+                height="752"
+                loading="lazy"
+              />
+              <figcaption>Aprender, compartilhar e construir em conjunto.</figcaption>
+            </figure>
+
+            <div class="about-copy about-copy-right">
+              <p>
+                Sou organizada, persistente e atenta aos detalhes. Gosto de investigar
+                um problema antes de propor soluções, comunicar ideias com clareza e
+                ouvir diferentes perspectivas. Valorizo a colaboração, a criatividade e
+                a vontade de aprender.
+              </p>
+              <p>
+                Estou experimentando desenvolvimento web e automação com agentes de
+                inteligência artificial — assuntos que me despertam muita curiosidade e
+                entusiasmo.
+              </p>
+              <p class="personal-note">
+                Fora da tecnologia, adoro ler e estudar inglês. Também estou aprendendo
+                italiano e avançando aos poucos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section-shell" aria-labelledby="story-title">
+        <img class="floral floral-story" src="./assets/flower-decor.png" alt="" aria-hidden="true" />
+        <div class="page-width story-grid">
+          <figure class="story-image-wrap">
+            <img
+              src="./assets/childhood-computer.png"
+              alt="Jhovana criança, sentada diante de um computador"
+              width="783"
+              height="724"
+              loading="lazy"
+            />
+            <figcaption>Outubro de 2013</figcaption>
+          </figure>
+
+          <div class="story-copy">
+            <p class="eyebrow">onde tudo começou</p>
+            <h2 id="story-title">Uma curiosidade que virou caminho</h2>
+            <p>
+              Minha curiosidade por tecnologia começou bem antes de eu pensar em
+              programação. Desde criança, eu passava horas no computador por causa dos
+              jogos e queria entender como tudo funcionava, até aprender a instalar
+              mods e personalizar minhas experiências. Esta foto guarda um pedacinho
+              daquele começo: eu já estava ali, perto do computador, movida pela
+              curiosidade.
+            </p>
+            <p>
+              Em 2020, decidi transformar essa curiosidade em aprendizado técnico e
+              comecei a estudar programação por meio de cursos gratuitos online. Meu
+              primeiro “Hello, world!” foi em Python. Na mesma época, HTML e CSS
+              despertaram meu lado criativo e me mostraram que eu também podia explorar
+              o visual da web.
+            </p>
+            <p>
+              Desde então, sigo aprendendo e construindo meu caminho na área, sempre
+              com vontade de entender melhor como as coisas funcionam e transformar
+              ideias em experiências digitais.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-shell" id="habilidades" aria-labelledby="skills-title">
+        <div class="page-width">
+          <div class="skills-heading">
+            <div>
+              <p class="eyebrow">ferramentas que venho explorando</p>
+              <h2 id="skills-title">Habilidades</h2>
+            </div>
+            <p>Conhecimentos em desenvolvimento contínuo, construídos com prática e curiosidade.</p>
+          </div>
+
+          <ul class="skill-list" aria-label="Habilidades técnicas">
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Express.js</li>
+            <li>Vue.js</li>
+            <li>HTML e CSS</li>
+            <li>MySQL</li>
+            <li>Java</li>
+            <li>APIs REST</li>
+            <li>C</li>
+            <li>Git e GitHub</li>
+          </ul>
+          <p class="skills-note">Sempre aprendendo algo novo e colocando o conhecimento em prática.</p>
+        </div>
+      </section>
+
+      <section class="projects section-shell" id="projetos" aria-labelledby="projects-title">
+        <div class="page-width">
+          <div class="projects-heading">
+            <div>
+              <p class="eyebrow">ideias que ganharam forma</p>
+              <h2 id="projects-title">Projetos</h2>
+            </div>
+            <a class="text-link" href="https://github.com/Jhovtm" target="_blank" rel="noreferrer">
+              Mais no GitHub <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-art project-art-library" aria-hidden="true">
+                <span class="project-art-label">FULL STACK</span>
+                <div class="book-stack"><i></i><i></i><i></i></div>
+                <span class="art-caption">Biblioteca</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-type">Aplicação web</p>
+                <h3>Sistema de Biblioteca</h3>
+                <p>
+                  Aplicação para organizar livros, clientes e aluguéis, conectando a
+                  interface a uma API e a um banco de dados relacional.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologias usadas">
+                  <li>Vue.js</li><li>TypeScript</li><li>Express</li><li>MySQL</li>
+                </ul>
+                <a class="card-link" href="https://github.com/Jhovtm/FullStack-Studies" target="_blank" rel="noreferrer">
+                  Ver repositório <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-art project-art-lab" aria-hidden="true">
+                <span class="project-art-label">JAVASCRIPT</span>
+                <div class="number-grid"><b>1</b><b>2</b><b>3</b><b>5</b><b>8</b><b>13</b></div>
+                <span class="art-caption">Lab Numbers</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-type">Experimento interativo</p>
+                <h3>Lab Numbers</h3>
+                <p>
+                  Aplicação interativa feita com JavaScript para explorar números e
+                  praticar interações diretamente no navegador.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologias usadas">
+                  <li>JavaScript</li><li>HTML</li><li>CSS</li>
+                </ul>
+                <a class="card-link" href="https://github.com/Jhovtm/LAB-NUMBERS---Interativo" target="_blank" rel="noreferrer">
+                  Ver repositório <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-art project-art-portfolio" aria-hidden="true">
+                <span class="project-art-label">PORTFÓLIO</span>
+                <div class="mini-browser"><i></i><i></i><i></i><span>J</span></div>
+                <span class="art-caption">Meu espaço na web</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-type">Site pessoal</p>
+                <h3>Portfólio</h3>
+                <p>
+                  Um espaço para apresentar minha trajetória, meus interesses e os
+                  projetos que venho desenvolvendo na área de tecnologia.
+                </p>
+                <ul class="tag-list" aria-label="Tecnologias usadas">
+                  <li>JavaScript</li><li>HTML</li><li>CSS</li>
+                </ul>
+                <a class="card-link" href="https://jhovtm.github.io" target="_blank" rel="noreferrer">
+                  Visitar portfólio <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contato" aria-labelledby="contact-title">
+        <div class="page-width contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">vamos conversar?</p>
+            <h2 id="contact-title">Entre em<br /><span>contato</span></h2>
+            <p>
+              Estou aberta a oportunidades de estágio, conversas sobre tecnologia e
+              novas possibilidades de colaboração.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:jhovanathomaz77@gmail.com">
+                <span class="contact-label">E-mail</span>
+                <span>jhovanathomaz77@gmail.com</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a href="https://wa.me/552197369945" target="_blank" rel="noreferrer">
+                <span class="contact-label">WhatsApp</span>
+                <span>(21) 9 9736-9945</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a href="https://www.linkedin.com/in/jhovana-thomaz-5b8135380/" target="_blank" rel="noreferrer">
+                <span class="contact-label">LinkedIn</span>
+                <span>Jhovana Thomaz</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a href="https://github.com/Jhovtm" target="_blank" rel="noreferrer">
+                <span class="contact-label">GitHub</span>
+                <span>Jhovtm</span>
+                <span class="contact-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <figure class="contact-image">
+            <img
+              src="./assets/graduation-stage.png"
+              alt="Jhovana celebrando sua formatura no palco"
+              width="929"
+              height="619"
+              loading="lazy"
+            />
+            <figcaption>Obrigada por visitar meu portfólio.</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-inner">
+        <a class="brand brand-footer" href="#inicio"><span class="brand-mark" aria-hidden="true">J</span><span>Portfolio</span></a>
+        <p>Feito com curiosidade e vontade de aprender.</p>
+        <a class="back-to-top" href="#inicio">Voltar ao início ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
